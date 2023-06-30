@@ -14,7 +14,7 @@ from bot_texts import text0, text2, text3 ,opt0, opt1, opt2,opt22,opt23,opt40,op
 
 
 
-bot = telebot.TeleBot("6026640813:AAFFJA11mbEbHzjjiLo6iPq4Gw6Sh1YKpjM")
+bot = telebot.TeleBot("Token")
 
 translator = Translator()
 
@@ -179,7 +179,7 @@ def callback_query_handler(call):
 
 
     elif call.data == 'details':
-            contacts="Contacts:\n36011, Poltava, 24 Pershotravnevy prospect.\n Viber:+38(099)057-65-17\n telegram:@sveta_revenko.\n📧E-mail:vstup@nupp.edu.ua \nOr use the phone number of the admissions office:+38(0532)56-16-04 "
+            contacts="Contacts:  "
             latitude = 49.576187656554474
             longitude = 34.56688364039407
             bot.send_location(chat_id=call.message.chat.id,latitude=latitude, longitude=longitude)
@@ -208,28 +208,28 @@ def callback_query_handler(call):
     
 #listof instutes items
     elif call.data == "option1":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/VADIMOV.png', caption=opt0)
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/KYRYCHENKO.png', caption=opt1)
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt0)
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt1)
          bot.send_message(chat_id=call.message.chat.id, text=opt2)
     
     elif call.data == "option2":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/MATYASH.png', caption=opt22)      
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt22)      
          bot.send_message(chat_id=call.message.chat.id, text=opt23)
     
     elif call.data == "option3":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/Fedorovych.png', caption=text0)
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/Yuriivna.png', caption=text2)
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=text0)
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=text2)
          bot.send_message(chat_id=call.message.chat.id, text=text3)
 
     elif call.data == "option4":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/KREKOTEN.png', caption=opt40)      
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt40)      
          bot.send_message(chat_id=call.message.chat.id, text=opt41)
 
     elif call.data == "option5":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/RYBALKO.png', caption=opt50)      
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt50)      
          bot.send_message(chat_id=call.message.chat.id, text=opt51)
     elif call.data == "option6":
-         bot.send_photo(chat_id=call.message.chat.id, photo='https://mybotpics.s3.eu-west-2.amazonaws.com/RYBALKO.png', caption=opt60)      
+         bot.send_photo(chat_id=call.message.chat.id, photo='photo url', caption=opt60)      
          bot.send_message(chat_id=call.message.chat.id, text=opt61)
   
 #🆘 Safety instructions in emergency situations
@@ -256,8 +256,8 @@ they contain important information and instructions regarding mine danger.
 Stay Safe!😊"""
             bot.send_message(call.message.chat.id, text=text)
             picture_urls = [
-        'https://mybotpics.s3.eu-west-2.amazonaws.com/MINESAREA.png',
-        'https://mybotpics.s3.eu-west-2.amazonaws.com/MINES.png'
+        'photo url',
+        'photo url'
         ]
             
             for url in picture_urls:
@@ -274,7 +274,7 @@ Stay Safe!😊"""
              
              bot.send_photo(chat_id=call.message.chat.id, photo=url)
     elif call.data == "itm4":
-        bot.send_photo(chat_id=call.message.chat.id, photo="https://mybotpics.s3.eu-west-2.amazonaws.com/Attention.png" )
+        bot.send_photo(chat_id=call.message.chat.id, photo="photo url" )
         bot.send_message(call.message.chat.id, text=attacks)
     ##
     elif call.data == "btn2":
