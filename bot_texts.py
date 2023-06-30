@@ -8,16 +8,14 @@ Architecture, Construction and Land Management of the Yuriy
 Kondratyuk Poltava Polytechnic National University
     
     VADIMOV Vadim Mitrofanovych
-    📞(0509)-66-02-21
-    📧vmvadimov@ukr.net"""
+    """
 opt1="""
 👨‍🏫Associate Professor of the Department of Building Structures,
  Deputy Director of the Institute of Architecture,
 Construction and Land Management
 
     KYRYCHENKO Volodymyr Anatoliyovych
-    📞(0532)-60-87-38   
-    📧buddekanat@ukr.net """
+     """
 
 opt2 = """
 If you would like to get more details regarding the specialities
@@ -35,8 +33,7 @@ information technologies and robotics of the Yuriy
 Kondratyuk Poltava Polytechnic National University
     
     Penc Volodymyr Fedorovych
-    📞(067) 532-39-64
-    📧pents@nupp.edu.ua"""
+    """
 
 text2 = """
 👨‍🏫Deputy director of the educational and scientific institute of 
@@ -44,8 +41,7 @@ information technologies and robotics of the Yuriy
 Kondratyuk Poltava Polytechnic National University
 
     VERGALKsenia Yuriivna
-    📞(096) 622-68-01   
-    📧verhal.ks@gmail.com """
+     """
 
 text3 = """
 If you would like to get more details regarding the specialities
@@ -60,8 +56,7 @@ opt22= """
 Oil and Gas National University "Poltava Polytechnic named after Yury Kondratyuk"
     
     MATYASH Oleksandr Vasyliovych
-    📞(066)-778-22-02
-    📧matyash19831010@gmail.com"""
+    """
 opt23 = """
 If you would like to get more details regarding the specialities
 of Scientific Institute of Oil and Gas
@@ -75,7 +70,7 @@ opt40= """
 Finance, Economics, Management and Law"
     
     KREKOTEN Iryna Mykhailivna
-    📧Ikrekoten78@gmail.com"""
+    """
 opt41 = """
 If you would like to get more details regarding the specialities
 of Scientific Institute of Finance, Economics, Management and Law
@@ -89,8 +84,7 @@ opt50= """
 👨‍🏫Dean of the Faculty of Philology, Psychology and Pedagogy"
     
     Ageycheva Anna Oleksandrivna
-    📞(095) 034-05-52
-    📧ageicheva@nupp.edu.ua"""
+    ""
 opt51 = """
 If you would like to get more details regarding the specialities
 of the Faculty of Philology, Psychology and Pedagogy
@@ -103,8 +97,7 @@ opt60= """
 👨‍🏫Dean of the Faculty of Physical Culture and Sports"
     
     RYBALKO Lina Mykolayivna
-    📞(066) 393 00 91
-    📧lina-rybalko@ukr.net"""
+    t"""
 opt61 = """
 If you would like to get more details regarding the specialities
 of the Faculty of Physical Culture and Sports
