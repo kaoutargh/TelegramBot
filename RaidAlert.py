@@ -5,7 +5,7 @@ from datetime import datetime
 def get_air_raid_alert():
     url = 'https://api.ukrainealarm.com/api/v3/alerts/1060'
     headers = {
-        'Authorization': '48542929:f2b6437aca3dac6b0cb7150327365b5e',
+        'Authorization': 'Api Key',
         'accept': 'application/json',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
     }
